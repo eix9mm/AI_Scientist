@@ -50,9 +50,10 @@ We provide all runs and data from our paper [here](https://drive.google.com/driv
 6. [Making Your Own Template](#making-your-own-template)
    - [Community-Contributed Templates](#community-contributed-templates)
 7. [Template Resources](#template-resources)
-8. [Citing The AI Scientist](#citing-the-ai-scientist)
-9. [Frequently Asked Questions](#frequently-asked-questions)
-10. [Containerization](#containerization)
+8. [Documentation](#documentation)
+9. [Citing The AI Scientist](#citing-the-ai-scientist)
+10. [Frequently Asked Questions](#frequently-asked-questions)
+11. [Containerization](#containerization)
 
 ## Introduction
 
@@ -317,6 +318,19 @@ We provide three templates, which heavily use code from other repositories, cred
 - **Grokking Template** uses code from [Sea-Snell/grokking](https://github.com/Sea-Snell/grokking) and [danielmamay/grokking](https://github.com/danielmamay/grokking).
 
 We would like to thank the developers of the open-source models and packages for their contributions and for making their work available.
+
+## Documentation
+
+For comprehensive documentation on the AI Scientist implementation, please refer to:
+
+- **[実装解説書](docs/実装解説書.md)** - Comprehensive Japanese documentation covering system architecture, core modules, template system, and usage guidelines
+- **[Developer Guide](docs/DEVELOPER_GUIDE.md)** - Technical documentation for developers including code architecture, API details, and extension guidelines  
+- **[Documentation Overview](docs/README.md)** - Navigation guide for all documentation resources
+
+To verify your documentation setup:
+```bash
+python docs/verify_docs.py
+```
 
 ## Citing The AI Scientist
 
